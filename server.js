@@ -2,5 +2,5 @@ var http = require('http')
 var port = process.env.PORT || 1337;
 http.createServer(function(req, res) {
   res.writeHead(200, { 'Content-Type': 'text/plain' });
-  res.end('Welcome to Azure World\n');
+  res.end('Welcome to Taeyo World\n');
 }).listen(port);
