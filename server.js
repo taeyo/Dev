@@ -10,7 +10,7 @@ var http = require('http')
   , fs = require('fs');
 var port = process.env.PORT || 1337;
 
-fs.readFile('image.jpg', function(err, data) {
+fs.readFile('azure.jpg', function(err, data) {
   if (err) throw err; // Fail if the file can't be read.
   http.createServer(function(req, res) {
     res.writeHead(200, {'Content-Type': 'image/jpeg'});
