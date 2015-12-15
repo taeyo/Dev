@@ -8,7 +8,7 @@
 
 
 var http = require('http')
-  , fs = require('fs');
+  , fs = require('fs');    //add
 var port = process.env.PORT || 1337;
 
 fs.readFile('azure.jpg', function(err, data) {
